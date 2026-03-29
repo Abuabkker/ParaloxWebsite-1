@@ -48,7 +48,7 @@ export function Nav({ page, setPage, dark, setDark }) {
           alt="Paralox Media" 
           onClick={() => go('home')} 
           whileHover={{ scale: 1.04 }} 
-          style={{ height: 180, cursor: 'pointer' }} 
+          style={{ height: 140, cursor: 'pointer' }} 
         />
         {/* Desktop links */}
         <div className="nd" style={{ display: 'flex', gap: 2 }}>
